@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FormularioProducto</title>
+</head>
+<body>
+	
+	<form method="GET" action="producto.php">
+		<center>
+         <h1> FORMULARIO PRODUCTO </h1>
+		<p>Idproducto:<input type="text" value="23" name="Idproducto" /></p>
+		<p>Nombre:<input type="text" name="Nombre" required="" /></p>
+		<p>Caracteristicas:<input type="text" name="Caracteristicas" /></p>
+		<p>Producto_Disponible:<input type="checkbox" value="1" name="Producto_Disponible" /></p>
+		<p>precio:<input type="text" name="precio" required="" /></p>
+		<p>Idtipoproducto:
+		<select name="Idtipoproducto">
+        <option value="1">Postres</option> 
+        <option value="2" selected>Bebidas</option>
+        <option value="3">Comidas</option>
+        </select></p>
+		<input type="submit" name="Calcular">
+</center>
+
+		
+	</form>
+</body>
+</html>
